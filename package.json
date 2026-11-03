@@ -1,0 +1,13 @@
+{
+  "name": "splitease",
+  "version": "1.0.0",
+  "description": "SplitEase - Group Expense Sharing MERN Application",
+  "scripts": {
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "test:server": "npm test --prefix server",
+    "build:client": "npm run build --prefix client"
+  },
+  "keywords": ["expense-tracker", "splitwise", "mern", "react", "mongodb", "nodejs"]
+}
+
