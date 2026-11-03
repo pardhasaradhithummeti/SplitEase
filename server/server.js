@@ -20,6 +20,7 @@ const clientUrl = process.env.CLIENT_URL ? process.env.CLIENT_URL.replace(/\/+$/
 const allowedOrigins = [
   clientUrl,
   'http://localhost:5173',
+  'https://split-ease-neon.vercel.app/register'
 ].filter(Boolean);
 
 app.use(
