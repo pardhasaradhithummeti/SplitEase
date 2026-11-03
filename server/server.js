@@ -27,6 +27,8 @@ const defaultOrigins = [
   'http://localhost:5173',
 ].filter(Boolean);
 
+const allowedOrigins = Array.from(new Set([...envOrigins, ...defaultOrigins]));
+
 const corsOptions = {
   origin: (origin, callback) => {
     // Allow requests with no origin (e.g. mobile apps, curl, or Render health checks)
